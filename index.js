@@ -10,6 +10,40 @@ const questions = [
     message: "What is the title for your application?",
     name: "titleName",
   },
+  {
+    type: "list",
+    message: "What type of license does your application have?",
+    name: "license",
+    choices: ["MIT", "Apache", "GPA", "MNA"],
+  },
+  {
+    type: "input",
+    message: "What is your application about?",
+    name: "description",
+  },
+  {
+    type: "input",
+    message:
+      "What installation instructions would you give for your application?",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "What usage instructions would you give for your application?",
+    name: "applicationUsage",
+  },
+  {
+    type: "input",
+    message:
+      "What contribution instructions would you give for your application?",
+    name: "contributing",
+  },
+  {
+    type: "input",
+    message:
+      "What other testing information can you give for your application? ",
+    name: "testApplication",
+  },
 ];
 
 // TODO: Create a function to write README file
