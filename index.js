@@ -44,6 +44,16 @@ const questions = [
       "What other testing information can you give for your application? ",
     name: "testApplication",
   },
+  {
+    type: "input",
+    message: "What is your Github profile URL?",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+  },
 ];
 
 // TODO: Create a function to write README file
