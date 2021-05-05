@@ -14,7 +14,7 @@ const questions = [
     type: "list",
     message: "What type of license does your application have?",
     name: "license",
-    choices: ["MIT", "Apache", "GPA", "MNA"],
+    choices: ["MIT", "Apache", "GPL", "MNA", "BSD", "None"],
   },
   {
     type: "input",
