@@ -14,8 +14,8 @@ const renderLicenseSection = (license) => {};
 const generateMarkdown = (answers) => {
   return `# ${answers.titleName}
   # Project Title (question 1 - input)
-
-  ![mit license](https://img.shields.io/badge/license-MIT-green) (question 2 - choices)
+  ${answers.license!=="None"
+  ?`![${answers.license} license](https://img.shields.io/badge/license-${answers.license}-green)`
   
   ## Description
   
