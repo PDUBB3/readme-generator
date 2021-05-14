@@ -12,46 +12,53 @@ const renderLicenseSection = (license) => {};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (answers) => {
-  return `# ${answers.titleName}
-  # Project Title (question 1 - input)
-  ${answers.license!=="None"
-  ?`![${answers.license} license](https://img.shields.io/badge/license-${answers.license}-green)`
-  
-  ## Description
-  
-  ${answers.description}
+  return `
+  # ${answers.titleName}
+
+  ${
+    answers.license !== "None"
+      ? `![${answers.license} license](https://img.shields.io/badge/license-${answers.license}-green)`
+      : ""
+  }
   
   ## Table of Contents
   
-    - [Project Title (question 1 - input)](#project-title-question-1---input)
     - [Description](#description)
-    - [Table of Contents](#table-of-contents)
     - [Installation](#installation)
     - [Usage](#usage)
     - [License](#license)
     - [Contributing](#contributing)
     - [Tests](#tests)
     - [Questions](#questions)
+
+  ## Description
+
+  ${answers.description}
   
   ## Installation
+
   ${answers.installation}
   
   ## Usage
+
   ${answers.applicationUsage}
+
   ## License
+
   ${answers.license}
   
   ## Contributing
+
   ${answers.contributing}
   
   ## Tests
+
   ${answers.testApplication}
   
   ## Questions
   
-  - View my [GitHub](${answers.github}) profile
+  - View my [GitHub](https://github.com/${answers.github}) profile
   - Email me at ${answers.email} 
-  
 `;
 };
 
