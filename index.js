@@ -64,7 +64,8 @@ const init = async () => {
   const answers = await inquirer.prompt(questions);
   console.log(answers);
   const markdown = generateMarkdown(answers);
+  console.log(markdown);
+  writeToFile("GENERATED_README", markdown);
 };
 // Function call to initialize app
 init();
-console.log("js");
