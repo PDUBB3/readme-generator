@@ -48,7 +48,7 @@ code .
 - Include `node_modules/` and `.DS_store/` in the `.gitignore` file.
 - Repo to include a `package.json` file by running `npm init` when you first set up the project.
 
-### Screenshot of Readme file created using command-line application
+### Screenshots
 
 ![The readme file created by using a command-line application](./img/GENERATED-README-md.png)
 
