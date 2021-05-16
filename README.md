@@ -44,16 +44,44 @@ cd readme-generator
 code .
 ```
 
-- Create `.gitignore` file before installing sny npm dependencies.
+- Create `.gitignore` file before installing any npm dependencies.
 - Include `node_modules/` and `.DS_store/` in the `.gitignore` file.
-- Repo to include a `package.json` file by running `npm init` when you first set up the project.
+- Repo to include a `package.json` file by running `npm init -y` when you first set up the project.
 
-### Screenshots
+Installation
+
+```
+npm i
+
+```
+
+Run
+
+```
+npm run start
+
+```
+
+Test with coverage
+
+```
+npm run test
+
+```
+
+Test with watch
+
+```
+npm run test:watch
+
+```
+
+## Screenshots
 
 ![The readme file created by using a command-line application](./img/GENERATED-README-md.png)
 
 Click [here](./GENERATED_README.MD) to view example of readme file generated
 
-### Walkthrough Video
+## Walkthrough Video
 
 ![The readme generator I have created](./)
