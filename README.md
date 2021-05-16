@@ -11,8 +11,7 @@
 
 ## Project Link
 
-Click [here](https://github.com/PDUBB3/readme-generator.git) to view project on Github pages
-Click [here](https://pdubb3.github.io/readme-generator/) to view GIT repo
+Click [here](https://pdubb3.github.io/readme-generator/) to view project on Github pages
 
 ## Description
 
