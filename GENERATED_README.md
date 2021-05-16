@@ -15,7 +15,7 @@
 
   ## Description
 
-  In this project, I have created a weather dashboard by using the openweathermap API. This Api allows the weather data to be retrieved and displayed onto the weather dashboard once a city in searched by the user via the search bar.
+  In this project I have created a weather dashboard by using the openweathermap API. This API allows the weather data to be retrieved and displayed onto the weather dashboard once a city is searched by the user via the search bar.
   
   ## Installation
   ```
@@ -35,9 +35,9 @@
   
   ## Tests
 
-  manual testing perform
+  manual testing platform
   
   ## Questions
   
-  - View my [GitHub](https://github.com/pdubb3) profile
+  - View my [GitHub](https://github.com/@PDUBB3) profile
   - Email me at pamela.b@email.com 

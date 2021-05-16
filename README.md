@@ -84,4 +84,4 @@ Click [here](./GENERATED_README.MD) to view example of readme file generated
 
 ## Walkthrough Video
 
-![The readme generator I have created](./)
+Click [here](https://drive.google.com/file/d/1kGHzCdRpyUNATIAsqauTuiXvN0E6A7fK/view?usp=sharing) to view my walkthrough video.
